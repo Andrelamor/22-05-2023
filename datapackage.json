@@ -1,0 +1,193 @@
+{
+  "resources": [
+    {
+      "path": "data/aditivos.csv",
+      "name": "aditivos",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_INSTRUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_DOCUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DOCUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "URL_DOCUMENTO",
+            "type": "any"
+          },
+          {
+            "name": "OBSERVACOES",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/relatorios.csv",
+      "name": "relatorios",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_INSTRUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_DOCUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "DOCUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "PERIODO_AVALIATORIO",
+            "type": "string"
+          },
+          {
+            "name": "URL_DOCUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "OBSERVACOES",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/repasses.csv",
+      "name": "repasses",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_INSTRUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "ANO",
+            "type": "integer"
+          },
+          {
+            "name": "REPASSE_PREVISTO",
+            "type": "string"
+          },
+          {
+            "name": "REPASSE_ATUALIZADO",
+            "type": "string"
+          },
+          {
+            "name": "OBSERVACOES",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/termo-parceria-contrato-gestao.csv",
+      "name": "termo-parceria-contrato-gestao",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "ID_INSTRUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_INSTRUMENTO",
+            "type": "string"
+          },
+          {
+            "name": "NUM_TERMO_CONTRATO",
+            "type": "string"
+          },
+          {
+            "name": "ORGAO_ESTATAL_CODIGO",
+            "type": "integer"
+          },
+          {
+            "name": "ORGAO_ESTATAL_NOME",
+            "type": "string"
+          },
+          {
+            "name": "ORGAO_ESTATAL_SIGLA",
+            "type": "string"
+          },
+          {
+            "name": "ENTIDADE_PARCEIRA_NOME",
+            "type": "string"
+          },
+          {
+            "name": "ENTIDADE_PARCEIRA_SIGLA",
+            "type": "string"
+          },
+          {
+            "name": "ENTIDADE_PARCEIRA_CNPJ",
+            "type": "string"
+          },
+          {
+            "name": "OBJETO",
+            "type": "string"
+          },
+          {
+            "name": "SITUACAO",
+            "type": "string"
+          },
+          {
+            "name": "DATA_INICIO_VIGENCIA",
+            "type": "date"
+          },
+          {
+            "name": "DATA_FIM_VIGENCIA",
+            "type": "date"
+          },
+          {
+            "name": "URL_INTEGRA_TERMO_CONTRATO",
+            "type": "string"
+          },
+          {
+            "name": "URL_DOCUMENTOS_TERMO_CONTRATO",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package"
+}
