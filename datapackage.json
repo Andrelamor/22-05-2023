@@ -1,4 +1,27 @@
 {
+  "name": "teste_22-05-2023",
+  "title": "teste 22/05/2023",
+  "description": "teste 22/05/2023",
+  "owner_org": "controladoria-geral-do-estado-cge",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "title": "Diretoria Central de Transparência Ativa",
+      "role": "maintainer",
+      "email": "transparencia@cge.mg.gov.br"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "frequência de atualização": "trimestral",
+  "keywords": [
+    "teste"
+  ],
   "resources": [
     {
       "path": "data/aditivos.csv",
@@ -189,5 +212,5 @@
       }
     }
   ],
-  "profile": "data-package"
+"profile": "data-package"
 }
